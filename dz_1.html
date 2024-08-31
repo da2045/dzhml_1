@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Menu</title>
+    <style>
+
+        .menu {
+            width: 200px;
+            background-color: #f8f8f8;
+            padding: 10px;
+        }
+        .menu-item {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            transition: background-color 0.3s;
+        }
+        .menu-item:hover {
+            background-color: #ddd;
+        }
+        .menu-icon {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+
+        <div class="menu-item">
+            <i class="fas fa-pencil-alt menu-icon"></i>
+            <span>Edit</span>
+        </div>
+
+        <div class="menu-item">
+            <i class="fas fa-heart menu-icon"></i>
+            <span>Favorites</span>
+        </div>
+ 
+        <div class="menu-item">
+            <i class="fas fa-history menu-icon"></i>
+            <span>History</span>
+        </div>
+
+        <div class="menu-item">
+            <i class="fas fa-shield-alt menu-icon"></i>
+            <span>Security</span>
+        </div>
+
+        <div class="menu-item">
+            <i class="fas fa-cogs menu-icon"></i>
+            <span>Settings</span>
+        </div>
+    </div>
+</body>
+</html>
